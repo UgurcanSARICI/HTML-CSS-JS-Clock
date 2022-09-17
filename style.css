@@ -13,13 +13,14 @@ body {
 
 .clock {
   position: relative;
-  width: 45rem;
-  height: 45rem;
+  width: 44rem;
+  height: 44rem;
   border: 5px solid black;
   border-radius: 50%;
   background: url("https://cssanimation.rocks/images/posts/clocks/ios_clock.svg");
+
   background-repeat: no-repeat;
-  background-size: 98%;
+  background-size: 97%;
 }
 .secs {
   position: absolute;
@@ -51,7 +52,7 @@ body {
   width: 0.5rem;
   background-color: black;
   transform: translateX(-50%);
-  transform-origin: 25% 0;
+  transform-origin: 50% 0;
 }
 .dot {
   position: absolute;
